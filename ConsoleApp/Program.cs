@@ -9,12 +9,12 @@
             proizvod.IspisiInformacije();
             drugiProizvod.IspisiInformacije();
 
-            ElektronickiUredaj uredaj = new ElektronickiUredaj("Tablet", "Samsung", 2020);
+            ElektronickiUredaj uredaj = new PametniTelefon("Tablet", "Samsung", 2020, "android");
             uredaj.IspisiInformacije();
-
-
-            PametniTelefon telefon = new PametniTelefon("iPhone 13", "Apple", 2021, "iOS");
-            telefon.InstalirajAplikaciju("WhatsApp");
+           
+            
+            PametniTelefon pametniUredaj = (PametniTelefon)uredaj;
+            pametniUredaj.InstalirajAplikaciju("Netflix");
         }
     }
 }
