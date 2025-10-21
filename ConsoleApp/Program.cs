@@ -9,6 +9,9 @@
             proizvod.IspisiInformacije();
             drugiProizvod.IspisiInformacije();
 
+            ElektronickiUredaj uredaj = new ElektronickiUredaj("Tablet", "Samsung", 2020);
+            uredaj.IspisiInformacije();
+
 
             PametniTelefon telefon = new PametniTelefon("iPhone 13", "Apple", 2021, "iOS");
             telefon.InstalirajAplikaciju("WhatsApp");
